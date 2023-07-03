@@ -1,0 +1,97 @@
+<html>
+<head>
+    <style>
+        h1 {
+            color: lightblue;
+            font-weight: bold;
+            text-align: center;
+        }
+        hr {
+            border: 3px solid lightblue;
+        }
+        p {
+            color: lightblue;
+            text-align: center;
+        }
+        input, select {
+            margin-left: 10px;
+        }
+        button {
+            background-color: lightblue;
+            opacity: 0.8;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>呼吸道肿瘤预测测试</h1>
+    <hr>
+    <p>请输入您的姓名<input type="text" name="name"></p >
+    <p>请输入您的年龄<input type="number" name="age"></p >
+    <p>请输入您的性别<select name="gender">
+        <option value="" selected hidden></option>
+        <option value="男">男</option>
+        <option value="女">女</option>
+    </select></p >
+    <p>咳嗽情况调查<select name="cough">
+        <option value="" selected hidden></option>
+        <option value="有咳嗽">有咳嗽</option>
+        <option value="无咳嗽">无咳嗽</option>
+        <option value="有无咳嗽">有无咳嗽</option>
+    </select></p >
+    <!-- 添加12行的居中“咳嗽情况调查”，下拉框，可选择“有咳嗽”，“无咳嗽”，“有无咳嗽”，在未选择时不显示内容 -->
+    <p>咳痰情况调查<select name="sputum">
+        <option value="" selected hidden></option>
+        <option value="有咳痰">有咳痰</option>
+        <option value="无咳痰">无咳痰</option>
+        <option value="有无咳痰">有无咳痰</option>
+    </select></p >
+    <p>胸闷情况调查<select name="chest_tightness">
+        <option value="" selected hidden></option>
+        <option value="有胸闷">有胸闷</option>
+        <option value="无胸闷">无胸闷</option>
+        <option value="有无胸闷">有无胸闷</option>
+    </select></p >
+    <p>气促情况调查<select name="dyspnea">
+        <option value="" selected hidden></option>
+        <option value="有气促">有气促</option>
+        <option value="无气促">无气促</option>
+        <option value="有无气促">有无气促</option>
+    </select></p >
+    <p>发热情况调查<select name="fever">
+        <option value="" selected hidden></option>
+        <option value="有发热">有发热</option>
+        <option value="无发热">无发热</option>
+        <option value="有无发热">有无发热</option>
+    </select></p >
+    <p>吸烟史调查<select name="smoking_history">
+        <option value="" selected hidden></option>
+        <option value="有吸烟史">有吸烟史</option>
+        <option value="无吸烟史">无吸烟史</option>
+        <option value="不确定">不确定</option>
+    </select></p >
+    <p>家族肿瘤史调查<select name="family_tumor_history">
+        <option value="" selected hidden></option>
+        <option value="有家族肿瘤史">有家族肿瘤史</option>
+        <option value="无家族肿瘤史">无家族肿瘤史</option>
+        <option value="不确定">不确定</option>
+    </select></p >
+    <p>职业暴露史调查<select name="occupational_exposure_history">
+        <option value="" selected hidden></option>
+        <option value="有职业暴露史">有职业暴露史</option>
+        <option value="无职业暴露史">无职业暴露史</option>
+        <option value="不确定">不确定</option>
+    </select></p >
+    <p>接触过敏源调查<select name="allergen_exposure">
+        <option value="" selected hidden></option>
+        <option value="有接触过敏源">有接触过敏源</option>
+        <option value="无接触过敏源">无接触过敏源</option>
+        <option value="不确定">不确定</option>
+    </select></p >
+    <button onclick="window.location.href='https://www.example.com'">提交</button>
+</body>
+</html>
